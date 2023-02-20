@@ -22,17 +22,17 @@
             <div class="col-md-5">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Agrega aquí</h4>
+                        <h4>Agregar aquí</h4>
                     </div>
-                    <form id="product-form" class="card-body">
-                        <div class="form-group">
-                            <input type="text" id="nombre" class="form-control">
-                        </div>
-                        <input type="submit" value="Save" class="btn btn-primary btn-block">
+                    <form id="formulario" class="card-body" method="get">
+            
+                        <input type="text" id="nombre" class="form-control dato">
+
+                        <input type="submit" value="Submit" class="btn btn-primary" onclick="obtenerDatos()">
                     </form>
                 </div>
             </div>
-            <div id="product-list" class="col-md-8"></div>
+            <div id="listaProductos" class="col-md-8"></div>
         </div>
     </div>
 
